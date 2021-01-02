@@ -6,10 +6,10 @@ menuBtn.onclick = () => {
     sideNav.style.transition = '.4s'
     if (sideNav.style.right == '-250px') {
         sideNav.style.right = '0px';
-        imgBtn.src = 'barber_shop_img/close.png';
+        imgBtn.src = 'images/close.png';
     } else {
         sideNav.style.right = '-250px';
-        imgBtn.src = 'barber_shop_img/menu.png';
+        imgBtn.src = 'images/menu.png';
     }
 }
 
